@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.square {
+    width: 16px;
+    height: 16px;
+}
